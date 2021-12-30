@@ -1,0 +1,14 @@
+.btn-warning:hover{
+    background-color:red;
+}
+
+canvas{
+    animation-name:first;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first {
+    from{box-shadow: 1px 1px 38px cyan;}
+    to{box-shadow: 1px 1px 38px rgb(109, 190, 15);}
+}
